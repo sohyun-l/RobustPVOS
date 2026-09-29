@@ -1,0 +1,31 @@
+## Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+*.so
+
+## Environments / editor
+.venv/
+env/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+## Runtime output
+checkpoints/
+sam2_logs/
+results/
+data/
+wandb/
+outputs/
+*.log
+*.tar.gz
+
+## OS
+.DS_Store
+Thumbs.db

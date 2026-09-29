@@ -1,0 +1,804 @@
+{
+  "metadata": {
+    "num_points_per_object": 3,
+    "seed": 42,
+    "image_size": 1024,
+    "prompt_generation": "random_within_mask"
+  },
+  "prompts": {
+    "fog": {
+      "GOPR0476": {
+        "first_gt_frame": "000761.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                161.0,
+                779.0
+              ],
+              [
+                205.0,
+                825.0
+              ],
+              [
+                135.0,
+                813.0
+              ]
+            ],
+            "area": 9416,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP010476": {
+        "first_gt_frame": "000001.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                518.0,
+                738.0
+              ],
+              [
+                509.0,
+                756.0
+              ],
+              [
+                506.0,
+                755.0
+              ]
+            ],
+            "area": 591,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP020475": {
+        "first_gt_frame": "000054.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                483.0,
+                742.0
+              ],
+              [
+                488.0,
+                743.0
+              ],
+              [
+                484.0,
+                746.0
+              ]
+            ],
+            "area": 890,
+            "region_index": 0
+          }
+        ]
+      }
+    },
+    "snow": {
+      "GOPR0122": {
+        "first_gt_frame": "000001.png",
+        "num_objects": 2,
+        "objects": [
+          {
+            "class_id": 3,
+            "class_name": "wall",
+            "points": [
+              [
+                525.0,
+                727.0
+              ],
+              [
+                477.0,
+                679.0
+              ],
+              [
+                497.0,
+                651.0
+              ]
+            ],
+            "area": 4268,
+            "region_index": 0
+          },
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                465.0,
+                731.0
+              ],
+              [
+                467.0,
+                721.0
+              ],
+              [
+                464.0,
+                730.0
+              ]
+            ],
+            "area": 95,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0604": {
+        "first_gt_frame": "000278.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                489.0,
+                714.0
+              ],
+              [
+                493.0,
+                720.0
+              ],
+              [
+                492.0,
+                712.0
+              ]
+            ],
+            "area": 71,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0605": {
+        "first_gt_frame": "000161.png",
+        "num_objects": 4,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                523.0,
+                678.0
+              ],
+              [
+                502.0,
+                855.0
+              ],
+              [
+                437.0,
+                830.0
+              ]
+            ],
+            "area": 29327,
+            "region_index": 0
+          },
+          {
+            "class_id": 30,
+            "class_name": "unknown",
+            "points": [
+              [
+                55.0,
+                731.0
+              ],
+              [
+                54.0,
+                367.0
+              ],
+              [
+                102.0,
+                740.0
+              ]
+            ],
+            "area": 153820,
+            "region_index": 0
+          },
+          {
+            "class_id": 30,
+            "class_name": "unknown",
+            "points": [
+              [
+                344.0,
+                515.0
+              ],
+              [
+                371.0,
+                518.0
+              ],
+              [
+                347.0,
+                517.0
+              ]
+            ],
+            "area": 108,
+            "region_index": 1
+          },
+          {
+            "class_id": 31,
+            "class_name": "unknown",
+            "points": [
+              [
+                478.0,
+                559.0
+              ],
+              [
+                478.0,
+                575.0
+              ],
+              [
+                488.0,
+                602.0
+              ]
+            ],
+            "area": 6579,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0606": {
+        "first_gt_frame": "000110.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                537.0,
+                809.0
+              ],
+              [
+                556.0,
+                794.0
+              ],
+              [
+                546.0,
+                784.0
+              ]
+            ],
+            "area": 1036,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0607": {
+        "first_gt_frame": "000360.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                518.0,
+                765.0
+              ],
+              [
+                476.0,
+                669.0
+              ],
+              [
+                483.0,
+                813.0
+              ]
+            ],
+            "area": 15607,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP010607": {
+        "first_gt_frame": "000921.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                399.0,
+                727.0
+              ],
+              [
+                382.0,
+                741.0
+              ],
+              [
+                388.0,
+                734.0
+              ]
+            ],
+            "area": 6300,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP020607": {
+        "first_gt_frame": "000001.png",
+        "num_objects": 2,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                628.0,
+                776.0
+              ],
+              [
+                628.0,
+                752.0
+              ],
+              [
+                632.0,
+                764.0
+              ]
+            ],
+            "area": 2023,
+            "region_index": 0
+          },
+          {
+            "class_id": 31,
+            "class_name": "unknown",
+            "points": [
+              [
+                450.0,
+                703.0
+              ],
+              [
+                465.0,
+                740.0
+              ],
+              [
+                461.0,
+                703.0
+              ]
+            ],
+            "area": 3139,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP030176": {
+        "first_gt_frame": "000529.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                462.0,
+                733.0
+              ],
+              [
+                450.0,
+                800.0
+              ],
+              [
+                453.0,
+                762.0
+              ]
+            ],
+            "area": 9075,
+            "region_index": 0
+          }
+        ]
+      }
+    },
+    "night": {
+      "GOPR0351": {
+        "first_gt_frame": "000033.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                395.0,
+                555.0
+              ],
+              [
+                397.0,
+                570.0
+              ],
+              [
+                397.0,
+                569.0
+              ]
+            ],
+            "area": 699,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0356": {
+        "first_gt_frame": "000321.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                541.0,
+                658.0
+              ],
+              [
+                542.0,
+                670.0
+              ],
+              [
+                543.0,
+                670.0
+              ]
+            ],
+            "area": 311,
+            "region_index": 0
+          }
+        ]
+      }
+    },
+    "rain": {
+      "GOPR0400": {
+        "first_gt_frame": "000058.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                167.0,
+                964.0
+              ],
+              [
+                45.0,
+                904.0
+              ],
+              [
+                115.0,
+                780.0
+              ]
+            ],
+            "area": 80774,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0402": {
+        "first_gt_frame": "000120.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                473.0,
+                789.0
+              ],
+              [
+                506.0,
+                755.0
+              ],
+              [
+                506.0,
+                779.0
+              ]
+            ],
+            "area": 2900,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0571": {
+        "first_gt_frame": "000232.png",
+        "num_objects": 2,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                374.0,
+                715.0
+              ],
+              [
+                373.0,
+                707.0
+              ],
+              [
+                381.0,
+                717.0
+              ]
+            ],
+            "area": 359,
+            "region_index": 0
+          },
+          {
+            "class_id": 31,
+            "class_name": "unknown",
+            "points": [
+              [
+                534.0,
+                641.0
+              ],
+              [
+                494.0,
+                508.0
+              ],
+              [
+                468.0,
+                518.0
+              ]
+            ],
+            "area": 61702,
+            "region_index": 0
+          }
+        ]
+      },
+      "GOPR0572": {
+        "first_gt_frame": "000736.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                503.0,
+                708.0
+              ],
+              [
+                509.0,
+                695.0
+              ],
+              [
+                511.0,
+                686.0
+              ]
+            ],
+            "area": 731,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP010400": {
+        "first_gt_frame": "000214.png",
+        "num_objects": 5,
+        "objects": [
+          {
+            "class_id": 4,
+            "class_name": "fence",
+            "points": [
+              [
+                465.0,
+                701.0
+              ],
+              [
+                461.0,
+                667.0
+              ],
+              [
+                448.0,
+                672.0
+              ]
+            ],
+            "area": 1506,
+            "region_index": 0
+          },
+          {
+            "class_id": 4,
+            "class_name": "fence",
+            "points": [
+              [
+                424.0,
+                664.0
+              ],
+              [
+                423.0,
+                664.0
+              ],
+              [
+                422.0,
+                665.0
+              ]
+            ],
+            "area": 12,
+            "region_index": 1
+          },
+          {
+            "class_id": 4,
+            "class_name": "fence",
+            "points": [
+              [
+                477.0,
+                675.0
+              ],
+              [
+                473.0,
+                689.0
+              ],
+              [
+                476.0,
+                685.0
+              ]
+            ],
+            "area": 480,
+            "region_index": 2
+          },
+          {
+            "class_id": 4,
+            "class_name": "fence",
+            "points": [
+              [
+                426.0,
+                696.0
+              ],
+              [
+                424.0,
+                692.0
+              ],
+              [
+                426.0,
+                699.0
+              ]
+            ],
+            "area": 91,
+            "region_index": 3
+          },
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                513.0,
+                707.0
+              ],
+              [
+                518.0,
+                703.0
+              ],
+              [
+                522.0,
+                704.0
+              ]
+            ],
+            "area": 389,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP020402": {
+        "first_gt_frame": "000599.png",
+        "num_objects": 2,
+        "objects": [
+          {
+            "class_id": 3,
+            "class_name": "wall",
+            "points": [
+              [
+                393.0,
+                658.0
+              ],
+              [
+                398.0,
+                672.0
+              ],
+              [
+                368.0,
+                653.0
+              ]
+            ],
+            "area": 3463,
+            "region_index": 0
+          },
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                373.0,
+                716.0
+              ],
+              [
+                382.0,
+                718.0
+              ],
+              [
+                377.0,
+                717.0
+              ]
+            ],
+            "area": 429,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP030400": {
+        "first_gt_frame": "000121.png",
+        "num_objects": 1,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                695.0,
+                707.0
+              ],
+              [
+                684.0,
+                654.0
+              ],
+              [
+                676.0,
+                715.0
+              ]
+            ],
+            "area": 4128,
+            "region_index": 0
+          }
+        ]
+      },
+      "GP030402": {
+        "first_gt_frame": "000001.png",
+        "num_objects": 2,
+        "objects": [
+          {
+            "class_id": 5,
+            "class_name": "pole",
+            "points": [
+              [
+                298.0,
+                799.0
+              ],
+              [
+                230.0,
+                697.0
+              ],
+              [
+                274.0,
+                859.0
+              ]
+            ],
+            "area": 28243,
+            "region_index": 0
+          },
+          {
+            "class_id": 16,
+            "class_name": "train",
+            "points": [
+              [
+                700.0,
+                829.0
+              ],
+              [
+                694.0,
+                854.0
+              ],
+              [
+                696.0,
+                783.0
+              ]
+            ],
+            "area": 1120,
+            "region_index": 0
+          }
+        ]
+      }
+    }
+  }
+}
